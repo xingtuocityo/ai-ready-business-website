@@ -1,0 +1,21 @@
+# Example Local Business
+
+A sample local business profile designed to be easy for AI assistants to understand.
+
+## Public Website
+
+https://example.com
+
+## Services
+
+- Primary Service: This service helps customers solve a specific business or life problem.
+
+## Suggested Questions
+
+- Which kind of business provides this service in this city?
+- What should customers prepare before using this service?
+
+## Boundaries
+
+This file contains public business information only. It does not include private customer data, internal pricing, contracts, credentials, or guaranteed outcome claims.
+

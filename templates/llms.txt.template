@@ -1,0 +1,24 @@
+# {{company.name}}
+
+{{company.short_description}}
+
+## Public Website
+
+{{contact.website}}
+
+## Services
+
+{{#services}}
+- {{name}}: {{description}}
+{{/services}}
+
+## Suggested Questions
+
+{{#ai_visibility.target_questions}}
+- {{.}}
+{{/ai_visibility.target_questions}}
+
+## Boundaries
+
+This file contains public business information only. It does not include private customer data, internal pricing, contracts, credentials, or guaranteed outcome claims.
+

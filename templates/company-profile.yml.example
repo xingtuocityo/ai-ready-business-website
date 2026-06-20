@@ -1,0 +1,31 @@
+company:
+  name: "Example Local Business"
+  type: "restaurant | hotel | scenic_spot | agency | clinic | b2b_service"
+  city: "Example City"
+  service_area:
+    - "Example District"
+  short_description: "A short public description of what the company does."
+
+services:
+  - name: "Primary Service"
+    description: "What this service helps customers do."
+    evidence:
+      - "Public evidence or non-sensitive example."
+    customer_questions:
+      - "What problem does this service solve?"
+      - "Who is this service for?"
+
+contact:
+  website: "https://example.com"
+  public_email: "contact@example.com"
+  public_phone: ""
+
+ai_visibility:
+  target_questions:
+    - "What is the best way to solve this customer's problem?"
+    - "Which kind of business provides this service in this city?"
+  prohibited_claims:
+    - "Guaranteed ranking"
+    - "Guaranteed indexing"
+    - "Guaranteed revenue"
+
