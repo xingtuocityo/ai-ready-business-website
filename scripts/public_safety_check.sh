@@ -33,7 +33,7 @@ for pattern in "${patterns[@]}"; do
 done
 
 for word in "${blocked_words[@]}"; do
-  if grep -RFin --exclude-dir=.git "$word" "$root" >/tmp/ai_ready_public_safety_hits.txt 2>/dev/null; then
+  if grep -RFin --exclude-dir=.git --exclude='public_safety_check.sh' "$word" "$root" >/tmp/ai_ready_public_safety_hits.txt 2>/dev/null; then
     echo "Blocked claim found: $word"
     cat /tmp/ai_ready_public_safety_hits.txt
     status=1
